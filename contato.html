@@ -31,56 +31,60 @@
       <h1>Contato</h1>
 
       <form action="" method="get">
-        <table>
+        <fieldset>
 
-          <!-- Nome -->
-          <tr>
-            <td><label for="nome">Nome:</label></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="nome" id="nome" maxlength="200" placeholder="Digite seu nome" required></td>
-          </tr>
+          <legend>DADOS PARA CONTATO</legend>
 
-          <!-- Email -->
-          <tr>
-            <td><label for="email">E-mail:</label></td>
-          </tr>
-          <tr>
-            <td><input type="email" nome="email" id="email" placeholder="exemplo@email.com" required></td>
-          </tr>
+          <table>
 
-          <!-- Assunto -->
-          <tr>
-            <td><label for="assunto">Assunto:</label></td>
-          </tr>
-          <tr>
-            <td>
-              <select name="assunto" id="assunto" required>
-                <option value="" disabled selected>Selecione um assunto</option>
-                <option value="criticasSugestoes">Críticas e sugestões</option>
-                <option value="trabalheConosco">Trabalhe conosco</option>
-                <option value="duvidas">Dúvidas</option>
-                <option value="envieNoticia">Envie uma notícia</option>
-              </select>
-            </td>
-          </tr>
+            <!-- Nome -->
+            <tr>
+              <td><label for="nome">Nome:</label></td>
+            </tr>
+            <tr>
+              <td><input type="text" name="nome" id="nome" maxlength="200" placeholder="Digite seu nome" required></td>
+            </tr>
 
-          <!-- Mensagem -->
-          <tr>
-            <td><label for="msg">Mensagem:</label></td>
-          </tr>
-          <tr>
-            <td><textarea name="msg" id="msg" cols="30" rows="5" placeholder="Deixe sua mensagem aqui"
-                required></textarea></td>
-          </tr>
+            <!-- Email -->
+            <tr>
+              <td><label for="email">E-mail:</label></td>
+            </tr>
+            <tr>
+              <td><input type="email" nome="email" id="email" placeholder="exemplo@email.com" required></td>
+            </tr>
 
-          <!-- Botões -->
+            <!-- Assunto -->
+            <tr>
+              <td><label for="assunto">Assunto:</label></td>
+            </tr>
+            <tr>
+              <td>
+                <select name="assunto" id="assunto" required>
+                  <option value="" disabled selected>Selecione um assunto</option>
+                  <option value="criticasSugestoes">Críticas e sugestões</option>
+                  <option value="trabalheConosco">Trabalhe conosco</option>
+                  <option value="duvidas">Dúvidas</option>
+                  <option value="envieNoticia">Envie uma notícia</option>
+                </select>
+              </td>
+            </tr>
 
-        </table>
+            <!-- Mensagem -->
+            <tr>
+              <td><label for="msg">Mensagem:</label></td>
+            </tr>
+            <tr>
+              <td><textarea name="msg" id="msg" cols="30" rows="5" placeholder="Deixe sua mensagem aqui"
+                  required></textarea></td>
+            </tr>
 
-        <input type="submit" value="Enviar"></td>
-        <input type="reset" value="Limpar"></td>
+            <!-- Botões -->
 
+          </table>
+
+          <input type="submit" value="Enviar"></td>
+          <input type="reset" value="Limpar"></td>
+        </fieldset>
 
       </form>
 
